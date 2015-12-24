@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+; This file is for configuring servers. You can specify as many
+; servers as you need and use normal or quickmode configuration.
+;
+; NOTE: If a value in the .ini file contains any non-alphanumeric
+; characters it needs to be enclosed in double-quotes (").
+
+[staging]
+	user = ${1:username}
+	pass = ${2:password}
+	host = ${3:staging-example.com}
+	path = ${4:/path/to/installation}
+	port = 21
+
+	; Ignorance
+	skip[] = '.*'
+	skip[] = '*.md'
+	skip[] = '.*/**'
+	skip[] = 'Gruntfile.js'
+	skip[] = 'package.json'
+
+[production]
+	quickmode = ftp://${5:username}:${6:password}@${7:production-example.com}:21${4:/path/to/installation}
+
+	; Ignorance
+	skip[] = '.*'
+	skip[] = '*.md'
+	skip[] = '.*/**'
+	skip[] = 'Gruntfile.js'
+	skip[] = 'package.json'
+]]></content>
+	<tabTrigger>deploy</tabTrigger>
+</snippet>
