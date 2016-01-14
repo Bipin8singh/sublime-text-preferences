@@ -3,7 +3,7 @@
 /**
  * ${1:Function Title}
  *
- * @author   AxisThemes
+ * @author   ${2:AxisThemes}
  * @category ${3:Category}
  * @package  ${4:Package}/${5:Functions}
  * @version  ${6:1.0.0}

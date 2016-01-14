@@ -7,7 +7,7 @@
  * @version  ${3:1.0.0}
  * @package  ${4:Package}/${5:Classes}
  * @category ${6:Category}
- * @author   AxisThemes
+ * @author   ${7:AxisThemes}
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * ${2:ClassName} Class
+ * ${2:ClassName} Class.
  */
 
 ]]></content>
