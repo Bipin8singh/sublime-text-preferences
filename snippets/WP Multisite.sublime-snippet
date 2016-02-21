@@ -2,6 +2,6 @@
 	<content><![CDATA[
 define( 'WP_ALLOW_MULTISITE', true );
 ]]></content>
-	<tabTrigger>wpmu</tabTrigger>
+	<tabTrigger>wpms</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
