@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+define( 'WP_ALLOW_MULTISITE', true );
+]]></content>
+	<tabTrigger>wpms</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
