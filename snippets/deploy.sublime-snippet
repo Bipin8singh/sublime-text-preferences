@@ -17,8 +17,9 @@
 	skip[] = '.*'
 	skip[] = '*.md'
 	skip[] = '.*/**'
-	skip[] = 'Gruntfile.js'
 	skip[] = 'package.json'
+	skip[] = 'Gruntfile.js'
+	skip[] = 'CHANGELOG.txt'
 
 [production]
 	quickmode = ftp://${5:username}:${6:password}@${7:production-example.com}:21${4:/path/to/installation}
@@ -27,8 +28,9 @@
 	skip[] = '.*'
 	skip[] = '*.md'
 	skip[] = '.*/**'
-	skip[] = 'Gruntfile.js'
 	skip[] = 'package.json'
+	skip[] = 'Gruntfile.js'
+	skip[] = 'CHANGELOG.txt'
 ]]></content>
 	<tabTrigger>deploy</tabTrigger>
 </snippet>
