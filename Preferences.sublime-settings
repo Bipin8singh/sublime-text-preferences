@@ -1,6 +1,6 @@
 {
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/User/Tomorrow (SL).tmTheme",
+	"color_scheme": "Packages/User/Mac Classic (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
@@ -32,7 +32,7 @@
 	"tab_size": 4,
 	"tabs_padding_small": true,
 	"tabs_small": true,
-	"theme": "Afterglow-green.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
